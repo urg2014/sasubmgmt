@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="IP V4 Container" max_length="40" name="x_166642_subnet_ma_ip_v4_container" type="collection">
+        <element label="CIDR" max_length="100" name="cidr" type="string_full_utf8"/>
+        <element label="Description" max_length="5000" name="description" type="string_full_utf8"/>
+        <element label="Net End" max_length="100" name="net_end" type="string"/>
+        <element label="Net End Long Int" max_length="40" name="net_end_long_int" type="integer"/>
+        <element label="Net Mask" max_length="100" name="net_mask" type="string_full_utf8"/>
+        <element label="Net Mask Bits" max_length="40" name="net_mask_bits" type="integer"/>
+        <element label="Net Start" max_length="100" name="net_start" type="string"/>
+        <element label="Net Start Long Int" max_length="40" name="net_start_long_int" type="integer"/>
+        <element display="true" label="Number IP's" max_length="100" name="number_ip_s" type="string"/>
+        <element label="Subnet" max_length="100" name="subnet" type="string_full_utf8"/>
+    </element>
+</database>
