@@ -10,5 +10,9 @@
         <element label="Net Start Long Int" max_length="40" name="net_start_long_int" type="integer"/>
         <element display="true" label="Number IP's" max_length="100" name="number_ip_s" type="string"/>
         <element label="Subnet" max_length="100" name="subnet" type="string_full_utf8"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
     </element>
 </database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="IP V6 Subnets" max_length="40" name="x_166642_subnet_ma_ip_v6_subnets" type="collection">
+        <element label="CIDR" max_length="300" name="cidr" type="string_full_utf8"/>
+        <element label="Description" max_length="5000" name="description" type="string_full_utf8"/>
+        <element label="Net End" max_length="300" name="net_end" type="string_full_utf8"/>
+        <element label="Net End Long Int" max_length="300" name="net_end_long_int" type="string_full_utf8"/>
+        <element label="Net Mask Bits" max_length="40" name="net_mask_bits" type="integer"/>
+        <element label="Net Start" max_length="300" name="net_start" type="string_full_utf8"/>
+        <element label="Net Start Long Int" max_length="300" name="net_start_long_int" type="string_full_utf8"/>
+        <element display="true" label="Number IP's" max_length="100" name="number_ip_s" type="string_full_utf8"/>
+        <element label="Prefix" max_length="300" name="prefix" type="string_full_utf8"/>
+        <element label="Subnet" max_length="300" name="subnet" type="string_full_utf8"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
